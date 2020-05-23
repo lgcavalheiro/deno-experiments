@@ -1,0 +1,6 @@
+tasks:
+  - init: echo "Installing and configuring Deno..."
+    
+image:
+  file: .gitpod.Dockerfile
+
