@@ -1,6 +1,6 @@
 tasks:
   - init: echo "Installing and configuring Deno..."
-    command: alias deno="/home/gitpod/.deno/bin/deno" && deno --version
+    command: alias deno="/home/gitpod/.deno/bin/deno" && echo "Check if it worked with deno --version!"
     
 image:
   file: .gitpod.Dockerfile
